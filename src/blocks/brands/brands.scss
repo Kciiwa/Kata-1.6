@@ -1,15 +1,6 @@
 * {
   box-sizing: border-box;
 }
-.gradient::after {
-  content: '';
-  // width: 25%;
-  // height: 20px;
-  // position: absolute;
-  // /* left: 0; */
-  // right: 0;
-  mask-image: linear-gradient(to right, #f8f8f800, #F8F8F8 );
-}
 .list-header {
   background-image: linear-gradient(to right, #F8F8F8, #fff);
   margin: 15px 0;

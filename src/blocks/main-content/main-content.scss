@@ -19,5 +19,11 @@
         width: 120%;
         height: 120%;
         backdrop-filter: blur(5px);
+
+        @media (min-width: 1000px) {
+            &{
+                display: none;
+            }
+        }
     }
 }
